@@ -83,17 +83,21 @@ strong {
   padding: 6px 10px;
   border-radius: 999px;
   font-size: 0.76rem;
+  font-weight: 600;
 }
 
 .tone-pill--danger {
-  background: #f7ddd7;
+  background: var(--tone-danger-bg);
+  color: var(--tone-danger-fg);
 }
 
 .tone-pill--warn {
-  background: #fff1d2;
+  background: var(--tone-warn-bg);
+  color: var(--tone-warn-fg);
 }
 
-.tone-pill--neutral {
-  background: #dce8f7;
+.tone-pill--info {
+  background: var(--tone-info-bg);
+  color: var(--tone-info-fg);
 }
 </style>

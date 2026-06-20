@@ -16,9 +16,9 @@ const { activeInspectors, pendingRecords, recheckRecords, totalWindows } =
   useHarborMetrics()
 
 const metricCards = [
-  { label: '采样窗口', value: totalWindows, tone: 'neutral' },
-  { label: '待采样记录', value: pendingRecords, tone: 'warn' },
-  { label: '待复检记录', value: recheckRecords, tone: 'danger' },
+  { label: '采样窗口', value: totalWindows, tone: 'info' },
+  { label: '待采样记录', value: pendingRecords, tone: 'info' },
+  { label: '待复检记录', value: recheckRecords, tone: 'warn' },
   { label: '在岗检疫员', value: activeInspectors, tone: 'neutral' },
 ]
 </script>

@@ -67,21 +67,23 @@ defineProps({
   width: fit-content;
   padding: 6px 10px;
   border-radius: 999px;
+  font-weight: 600;
+  font-size: 0.76rem;
 }
 
 .status-chip--success {
-  background: #d6efe0;
-  color: #226040;
+  background: var(--tone-success-bg);
+  color: var(--tone-success-fg);
 }
 
 .status-chip--warn {
-  background: #ffe9bf;
-  color: #8b5e08;
+  background: var(--tone-warn-bg);
+  color: var(--tone-warn-fg);
 }
 
-.status-chip--neutral {
-  background: #dde6f6;
-  color: #35528b;
+.status-chip--info {
+  background: var(--tone-info-bg);
+  color: var(--tone-info-fg);
 }
 
 @media (max-width: 900px) {

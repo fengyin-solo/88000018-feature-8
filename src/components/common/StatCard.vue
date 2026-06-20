@@ -43,14 +43,22 @@ defineProps({
 }
 
 .stat-card--warn {
-  background: #fff1d2;
+  background: var(--tone-warn-bg);
+  color: var(--tone-warn-fg);
 }
 
 .stat-card--danger {
-  background: #f7ddd7;
+  background: var(--tone-danger-bg);
+  color: var(--tone-danger-fg);
 }
 
 .stat-card--neutral {
-  background: #e7f0eb;
+  background: var(--tone-neutral-bg);
+  color: var(--tone-neutral-fg);
+}
+
+.stat-card--info {
+  background: var(--tone-info-bg);
+  color: var(--tone-info-fg);
 }
 </style>

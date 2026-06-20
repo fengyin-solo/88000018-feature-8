@@ -18,7 +18,7 @@ export function statusMeta(status) {
     },
     pending: {
       label: '待采样',
-      tone: 'neutral',
+      tone: 'info',
     },
   }
 
@@ -37,7 +37,7 @@ export function priorityMeta(priority) {
     },
     low: {
       label: '低优先级',
-      tone: 'neutral',
+      tone: 'info',
     },
   }
 
